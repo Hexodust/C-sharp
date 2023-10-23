@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia1", "Lectia1\Lectia1.csproj", "{110351D0-DAC2-4521-BC19-E7F57B9A14AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{53C2F197-70AC-4FAD-A216-39E2BA2583B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{110351D0-DAC2-4521-BC19-E7F57B9A14AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110351D0-DAC2-4521-BC19-E7F57B9A14AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110351D0-DAC2-4521-BC19-E7F57B9A14AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110351D0-DAC2-4521-BC19-E7F57B9A14AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF036E13-2577-4F36-BC75-1513C7D13C77}
+	EndGlobalSection
+EndGlobal
