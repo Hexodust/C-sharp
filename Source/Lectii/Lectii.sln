@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia1", "Lectia1\Lectia1.csproj", "{110351D0-DAC2-4521-BC19-E7F57B9A14AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lectia1", "Lectia1\Lectia1.csproj", "{110351D0-DAC2-4521-BC19-E7F57B9A14AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{53C2F197-70AC-4FAD-A216-39E2BA2583B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{53C2F197-70AC-4FAD-A216-39E2BA2583B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework", "Homework", "{5F0EB32A-9F00-4BEF-8965-5B72E9B0E414}"
+	ProjectSection(SolutionItems) = preProject
+		Timetable.md = Timetable.md
+		PasswordManager.md = PasswordManager.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

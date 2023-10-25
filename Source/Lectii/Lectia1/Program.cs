@@ -6,12 +6,18 @@ public class Program
 {
     static void Main(string[] args)
     {
-        var myClass = new MyClass();
-        myClass.Name = "Adrian";
-        Console.WriteLine(myClass);
+        //var myClass = new MyClass();
+        //myClass.Name = "Adrian";
+        //Console.WriteLine(myClass);
 
-        var myRecord = new MyRecord(18, "Adrian");
-        Console.WriteLine(myRecord);
+        //var myRecord = new MyRecord(18, "Adrian");
+        //Console.WriteLine(myRecord);
+
+        var names = new []{ "Adrian", "Petru", "Gabi" };
+        var separator = ',';
+        var line = string.Join(separator, names);
+
+        Console.WriteLine(line);
 
         //var myClass = new MyClass();
         //var myClass2 = new MyClass();
