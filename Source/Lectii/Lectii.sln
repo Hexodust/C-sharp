@@ -9,8 +9,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework", "Homework", "{5F0EB32A-9F00-4BEF-8965-5B72E9B0E414}"
 	ProjectSection(SolutionItems) = preProject
-		Timetable.md = Timetable.md
 		PasswordManager.md = PasswordManager.md
+		Timetable.md = Timetable.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson1", "Lesson1", "{193EF70B-190C-4E8E-8541-C7A73EFCE352}"
+	ProjectSection(SolutionItems) = preProject
+		Lectia1\Homework\PasswordManager_Task1.md = Lectia1\Homework\PasswordManager_Task1.md
+		Lectia1\Homework\Timetable_Task1.md = Lectia1\Homework\Timetable_Task1.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{EEAB09B8-9AD1-4217-9C03-BA7FB4F4046F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lectia2", "Lectia2\Lectia2.csproj", "{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitCheatsheet", "GitCheatsheet", "{3E9A283F-C37D-4579-837E-373FD51A00B2}"
+	ProjectSection(SolutionItems) = preProject
+		GitCheatsheet.md = GitCheatsheet.md
 	EndProjectSection
 EndProject
 Global
@@ -27,9 +42,18 @@ Global
 		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53C2F197-70AC-4FAD-A216-39E2BA2583B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{110351D0-DAC2-4521-BC19-E7F57B9A14AA} = {193EF70B-190C-4E8E-8541-C7A73EFCE352}
+		{53C2F197-70AC-4FAD-A216-39E2BA2583B6} = {193EF70B-190C-4E8E-8541-C7A73EFCE352}
+		{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616} = {EEAB09B8-9AD1-4217-9C03-BA7FB4F4046F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF036E13-2577-4F36-BC75-1513C7D13C77}

@@ -1,4 +1,5 @@
 ﻿using Lectia1.CustomTypes;
+using Lectia1.Inheritance;
 
 namespace Lectia1;
 
@@ -13,11 +14,11 @@ public class Program
         //var myRecord = new MyRecord(18, "Adrian");
         //Console.WriteLine(myRecord);
 
-        var names = new []{ "Adrian", "Petru", "Gabi" };
-        var separator = ',';
-        var line = string.Join(separator, names);
+        //var names = new []{ "Adrian", "Petru", "Gabi" };
+        //var separator = ',';
+        //var line = string.Join(separator, names);
 
-        Console.WriteLine(line);
+        //Console.WriteLine(line);
 
         //var myClass = new MyClass();
         //var myClass2 = new MyClass();
@@ -48,6 +49,21 @@ public class Program
         //Console.WriteLine(name1.CompareTo(name2));
 
         //myClass.PrintYear();
+
+        IInterface1 person1 = GetPerson1();
+        person1.GetName();
+
+        var myEnum = MyEnum.Sunday;
+        if (myEnum == MyEnum.Sunday)
+            Console.WriteLine("No school today");
+        if (myEnum == MyEnum.Monday)
+            Console.WriteLine("First day of the week;");
+    }
+
+
+    private static IInterface1 GetPerson1()
+    {
+        return new ChildCLass();
     }
 
     public double Test1(int Age, int year)
