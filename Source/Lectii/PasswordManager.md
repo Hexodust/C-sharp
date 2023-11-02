@@ -19,7 +19,7 @@ software. Your attitude changes suddenly and are happy to hear about the project
 read about AI for only 1 hour only and can't do much. Your uncle offers to teach you, but first you need to prove
 him what you know. He asks if you can make him a  password manager. He cannot use a commercial version because of
 lack of trust and he wants some custom features that nobody offers. You decide that it is an easy task and agree
-in a rash. You continue to talk to your  uncle in a new light and by end of the day he also promised to send his
+in a rush. You continue to talk to your  uncle in a new light and by end of the day he also promised to send his
 requirements weekly. He also wants the project to be named PasswordAI. You are surprised by the worst name a
 program can have and reply that you will come back with a better one.
 >
