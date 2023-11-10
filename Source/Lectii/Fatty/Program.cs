@@ -1,17 +1,5 @@
-﻿public class Person
-{
-    public string Name;
-    public string Address;
-    public int Age;
-    public char Sex;
-    public string Eye_color;
+﻿using Fatty;
 
-    public Person (string Name, string Address, int Age, char Sex, string Eye_color )
-    {
-        this.Name = Name;
-        this.Address = Address;
-        this.Age = Age;
-        this.Sex = Sex;
-        this.Eye_color = Eye_color;
-    }
-}
+Student new_Student;
+new_Student = new Student("Name1", "Add1", 21, 'M', "Green", null);
+Console.ReadKey();

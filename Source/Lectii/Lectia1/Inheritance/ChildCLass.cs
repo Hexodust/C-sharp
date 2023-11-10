@@ -28,5 +28,8 @@ namespace Lectia1.Inheritance
         {
             return "Adrian";
         }
+
+        public void GetName_ExpectedBehavior_ShouldNotThrowExceptions() // Name used usually in a test project
+        { }
     }
 }
