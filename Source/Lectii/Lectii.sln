@@ -20,6 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson1", "Lesson1", "{193E
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{EEAB09B8-9AD1-4217-9C03-BA7FB4F4046F}"
+	ProjectSection(SolutionItems) = preProject
+		Timetable_Task2.md = Timetable_Task2.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lectia2", "Lectia2\Lectia2.csproj", "{DB4D0DA5-2AF8-4951-AACE-B16DEF71F616}"
 EndProject
