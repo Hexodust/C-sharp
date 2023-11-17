@@ -1,6 +1,4 @@
-﻿using Lectia1;
-
-var program = new Lectia1.Program();
+﻿var program = new Lectia1.Program();
 var age = 18;
 var year = 1900;
 

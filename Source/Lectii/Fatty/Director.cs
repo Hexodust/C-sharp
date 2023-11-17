@@ -1,6 +1,4 @@
-﻿using Fatty;
-
-public class Director : Profesor
+﻿public class Director : Profesor
 {
     public string Birou { get; set; }
 
