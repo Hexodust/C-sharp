@@ -2,6 +2,7 @@
 
 //RunListExample1();
 //RunListExample2();
+RunListExample3();
 //RunMyListExample1();
 //RunArrayExample();
 RunDictionaryExample();
@@ -45,6 +46,16 @@ void RunListExample2()
 
     for (int i = 0; i < ages.Count; i++)
         Console.WriteLine(ages[i]);
+}
+void RunListExample3()
+{
+    List<Person> people = new List<Person>();
+
+    people.Add(new Person("Adrian"));
+    Person friend1 = new Person("Dorel");
+    people.Add(friend1);
+    people.Add(new Person(null));
+
 }
 
 void RunMyListExample1()

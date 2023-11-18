@@ -1,9 +1,19 @@
-﻿namespace Lectia3;
+﻿namespace Lectia3Gabi;
 
 public class Person
 {
-    public virtual string GetTitle() // Allow children to change the implementation using keyword "virtual"
+    public virtual void Talk()
     {
-        return "ordinary person";
+        Console.WriteLine("Hello");
+    }
+
+    public virtual void Talk(string other)
+    {
+        Console.WriteLine($"Hello: {other}");
+    }
+
+    public virtual void Talk(int other)
+    {
+        Console.WriteLine($"Hello {other}");
     }
 }

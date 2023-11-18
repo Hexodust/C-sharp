@@ -1,30 +1,17 @@
-﻿using Lectia3;
+﻿using Lectia3Gabi;
 
-var maths = new MyMaths();
+var name = "Adrian";
 
+var person1 = new Person();
+//person1.Talk();
+person1.Talk(name);
 
-var myFloat = 2.4f;
-var myFloor = MyMaths.Floor(myFloat);
-var myCeiling = MyMaths.Ceiling(myFloat);
+var person2 = new Student();
+//person2.Talk();
+person2.Talk(name);
 
-Console.WriteLine(myFloor);
-Console.WriteLine(myCeiling);
-
-Console.WriteLine();
-Console.WriteLine(maths);
-
-Console.WriteLine(MyMaths.StaticId);
-Console.WriteLine(maths.GetMagicNumber());
-
-Console.WriteLine("Start creating teachers");
-
-var person = new Person();
-Console.WriteLine(person.GetTitle());
-
-var teacher = new Teacher();
-Console.WriteLine(teacher.GetTitle());
-
-var smartTeacher = new PhysicsTeacher();
-Console.WriteLine(smartTeacher.GetTitle());
+var person3 = new Phd();
+//person3.Talk();
+person3.Talk(name);
 
 Console.ReadKey();
