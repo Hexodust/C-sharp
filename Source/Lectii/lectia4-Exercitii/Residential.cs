@@ -15,14 +15,28 @@ namespace lectia4_Exercitii
                 return RoomsForRent > 0;
             }
         }
+
+        public int Rooms { get; }
         public int RoomsForRent { get; set; }
 
 
-        public int RentRoom() // TODO: Implement a way to free up a room for rent
+        public int RentRoom()
         {
-            RoomsForRent--;
+            if (CanRent)
+            {
+                RoomsForRent--;
+            }
             return RoomsForRent;
             
+        }
+
+        public int FreeRoom()
+        {
+            if (RoomsForRent < Rooms)
+            {
+                RoomsForRent++;
+            }
+            return RoomsForRent;
         }
     }
 }

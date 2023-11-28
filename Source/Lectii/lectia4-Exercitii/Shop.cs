@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lectia4_Exercitii
 {
-    internal class Mall : Building
+    internal class Shop
     {
-        public int Floors { get; set; }
-        public List<Shop> Shops { get; set; }
+        public string Name { get; set; }
+        public string Domain { get; set; }
     }
 }
