@@ -29,9 +29,24 @@ public class CalculatorTests
         var systemUnderTest = new Calculator(_logFile);
 
         Assert.NotNull(systemUnderTest);
-        Assert.Equal(1, systemUnderTest.Divide(1, 0));
+        Assert.Equal(2, systemUnderTest.Divide(10, 5));
     }
 
     [Fact]
-    public void Multiply_ValidValues_ShouldReturnExpectedResult() { }
+    public void Divide_ByZero_ShouldThrowException()
+    {
+        var systemUnderTest = new Calculator(_logFile);
+
+        Assert.Throws<Exception>(() => systemUnderTest.Divide(1, 0));
+    }
+
+    [Fact]
+    public void Multiply_ValidValues_ShouldReturnExpectedResult()
+    {
+        var systemUnderTest = new Calculator(_logFile);
+        Assert.Equal(6, systemUnderTest.Multiply(2, 3));
+        Assert.Equal(6, systemUnderTest.Multiply(3, 2));
+        Assert.Equal(0, systemUnderTest.Multiply(0, 6));
+        Assert.Equal(0, systemUnderTest.Multiply(10, 0));
+    }
 }
